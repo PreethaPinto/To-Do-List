@@ -22,3 +22,21 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+form input,
+form button {
+  padding: 8px;
+  font-size: 1.5rem;
+  border: none;
+}
+
+form button {
+  color: cadetblue;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+
+form button:hover {
+  background: powderblue;
+  color: white;
+}
